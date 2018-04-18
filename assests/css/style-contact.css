@@ -61,3 +61,84 @@ input, textarea {
 .logo:hover {
     opacity: 0.3;
 }
+
+@media screen and (max-width: 980px) {
+    .container {
+        width: 66%;
+        margin: 20px;
+
+    }
+    
+    .contact {
+        float: left;
+        width: 100%;
+        background-color: white;
+        border: 1px solid #dddddd;
+        padding: 20px;
+    
+    }
+    
+    .connect {
+        float: left;
+        width: 100%;
+        background-color: white;
+        border: 1px solid #dddddd;
+        padding: 20px;
+        margin: 20px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90vw;
+        margin: 0px;
+
+    }
+
+    .contact {
+        float: left;
+        box-sizing: border-box;
+        width: 100%;
+        background-color: white;
+        border: 1px solid #dddddd;
+        margin: 20px;
+    
+    }
+    
+    .connect {
+        float: left;
+        box-sizing: border-box;
+        width: 100%;
+        background-color: white;
+        border: 1px solid #dddddd;
+        margin: 20px;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        width: 90vw;
+        margin: 0px;
+
+    }
+
+    .contact {
+        float: left;
+        box-sizing: border-box;
+        width: 100%;
+        background-color: white;
+        border: 1px solid #dddddd;
+        margin: 20px;
+    
+    }
+    
+    .connect {
+        float: left;
+        box-sizing: border-box;
+        width: 100%;
+        background-color: white;
+        border: 1px solid #dddddd;
+        margin: 20px;
+    }
+}

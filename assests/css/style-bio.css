@@ -26,9 +26,10 @@
 
 @media screen and (max-width: 768px) {
     .biocontainer {
-        width: 85vw;
+        box-sizing: border-box;
+        width: 100%;
         padding: 20px;
-        margin: 20px;
+        margin: 20px 20px 20px 20px;
         background-color: white;
         border: 1px solid #dddddd;
         float: left;
@@ -37,9 +38,10 @@
 
 @media screen and (max-width: 640px) {
     .biocontainer {
-        width: 80vw;
+        box-sizing: border-box;
+        width: 100%;
         padding: 20px;
-        margin: 20px;
+        margin: 20px 20px 20px 20px;
         background-color: white;
         border: 1px solid #dddddd;
         float: left;

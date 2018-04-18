@@ -42,3 +42,52 @@
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
+
+
+@media screen and (max-width: 980px) {
+    .container {
+        width: 66%;
+        margin: 20px;
+
+    }
+    
+    .projectscontainer {
+        float: left;
+        box-sizing: border-box;
+        width: 100%;
+        margin: 20px;
+    
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 80vw;
+        margin: 20px;
+
+    }
+
+    .projectscontainer {
+        float: left;
+        box-sizing: border-box;
+        width: 100%;
+
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        width: 80vw;
+        margin: 20px;
+
+    }
+
+    .projectscontainer {
+        float: left;
+        box-sizing: border-box;
+        width: 100%;
+
+    }
+
+}
