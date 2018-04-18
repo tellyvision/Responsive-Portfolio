@@ -11,3 +11,37 @@
     border: 5px;
     margin: 30px;
 }
+
+
+@media screen and (max-width: 980px) {
+    .biocontainer {
+        width: 66vw;
+        padding: 20px;
+        margin: 20px;
+        background-color: white;
+        border: 1px solid #dddddd;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .biocontainer {
+        width: 85vw;
+        padding: 20px;
+        margin: 20px;
+        background-color: white;
+        border: 1px solid #dddddd;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .biocontainer {
+        width: 80vw;
+        padding: 20px;
+        margin: 20px;
+        background-color: white;
+        border: 1px solid #dddddd;
+        float: left;
+    }
+}
