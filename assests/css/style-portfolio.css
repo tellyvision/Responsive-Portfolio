@@ -1,0 +1,44 @@
+.container {
+    width: 920px;
+    padding: 20px;
+    margin: 20px auto auto auto;
+    background-color: white;
+    border: 1px solid #dddddd;
+}
+
+.projectscontainer {
+    float: left;
+    width: 50%;
+
+}
+.projectsbg {
+    Margin: 5%;
+    width: 90%;
+    z-index: 2;
+}
+
+.projectlabel {
+    position: relative;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    width: 90%;
+    margin: auto;
+    top: -100px;
+    background-color: #4aaaa5;
+    z-index: 3;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.projectlabel:hover {
+    opacity: 0.3;
+}
+
+.projlink {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
